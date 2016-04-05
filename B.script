@@ -1,0 +1,38 @@
+Script started on Tue 05 Apr 2016 01:55:58 PM CST
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=script script.txt[10D          [11Dmake  vim makefile[12Dmakefile    [8Dvim makefile[12Dmake        [8D[?1l>
+]2;kh@debian:~/Coding/PD2/lab3make: 'lab3' is up to date.
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=../lab3[?1l>
+]2;kh@debian:~/Coding/PD2/lab3size: 1000
+sort(): 0.000583 seconds
+v1/v2 are different.
+insertion_sort(): 0.017869 seconds
+v1/v2 are the same.
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=./lab3make  [?1l>
+]2;kh@debian:~/Coding/PD2/lab3g++ -c lab3.cpp
+g++ -c Clock.cpp
+g++ -o lab3 lab3.o Clock.o
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=make./lab3[?1l>
+]2;kh@debian:~/Coding/PD2/lab3size: 10000
+sort(): 0.004029 seconds
+v1/v2 are different.
+insertion_sort(): 0.791145 seconds
+v1/v2 are the same.
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=./lab3make  [?1l>
+]2;kh@debian:~/Coding/PD2/lab3g++ -c lab3.cpp
+g++ -c Clock.cpp
+g++ -o lab3 lab3.o Clock.o
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=make./lab3[?1l>
+]2;kh@debian:~/Coding/PD2/lab3size: 100000
+sort(): 0.041132 seconds
+v1/v2 are different.
+insertion_sort(): 80.4974 seconds
+v1/v2 are the same.
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=./lab3[?1l>
+]2;kh@debian:~/Coding/PD2/lab3size: 1000000
+sort(): 0.385301 seconds
+v1/v2 are different.
+^[[B    insertion_sort(): 8732.26 seconds
+v1/v2 are the same.
+[1m[3m%[23m[1m[0m                                                                                                                                       ]2;kh@debian:~/Coding/PD2/lab3[0m[23m[24m[J[38;5;140mkh@debian[39m [38;5;110m~/Coding/PD2/lab3[39m $ [K[?1h=
+
+Script done on Tue 05 Apr 2016 04:40:51 PM CST
