@@ -1,0 +1,24 @@
+作者：洪曼容 <klare0216@gmail.com>
+系級：資訊107
+最後更新：2016.04.05 14:42
+
+
+      Program Enviroment:
+
+        server: pd2.imslab.org
+        OS: Debian GNU/Linux 8 
+        compiler: G++
+
+
+      Description:
+        <problem A>
+          		熟悉使用vector以及sort去做資料處理。
+
+        <problem B>
+			size		sort()		insertinsort() 
+			1000		0.000583		0.017869
+			10000		0.004029		0.791145
+			100000		0.041132		80.4978
+			1000000		0.385301		> 45min
+			
+			遊上述的資料可見O(n log n),O(n^2)在n很小的時候其實看不太出來, 但當n很大的時候, 會成長的越快。
